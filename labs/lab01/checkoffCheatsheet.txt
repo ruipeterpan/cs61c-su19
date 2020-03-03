@@ -1,0 +1,20 @@
+Valgrind output suggests that the sum of array is -681778094 while it should be 15.
+
+I'm guessing the problem is with the variable "total". I'm not sure if its type (unsigned) has something to do with this.
+
+The use of sizeof() here is definitely problematic too. It might be the reason why this program produces inconsistent outputs.
+
+
+https://riptutorial.com/c/example/1472/use-of-an-uninitialized-variable
+
+Checkoff Cheat Sheet:
+
+Exercise 1: Show your TA the output of running eccentric.c with your changes made
+
+
+Exercise 2: Show your TA the list of gdb commands you found
+See GDB_Commands.txt
+
+
+Exercise 3: What command do you use to run int_hello with user input?
+run < inputForIntHello.txt

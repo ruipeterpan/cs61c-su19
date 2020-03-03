@@ -1,0 +1,5 @@
+#include "../../../cgen-lib/print.h"
+
+int main () {
+  return 0;
+}

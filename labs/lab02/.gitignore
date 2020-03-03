@@ -1,0 +1,11 @@
+core
+*.o
+~~
+#*#
+Makefile.bak
+*.dSYM
+vector-test
+lfsr
+bit_ops
+ll_cycle
+*.txt

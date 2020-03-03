@@ -1,0 +1,25 @@
+1. Record the 3 (three) intrinsics we specified above in a text file(or just know what they are) to show your TA.
+
+Four floating point divisions in single precision (i.e. float)
+
+__m128 _mm_div_ps (__m128 a, __m128 b)
+
+Sixteen max operations over signed 8-bit integers (i.e. char)
+
+__m128i _mm_add_epi8 (__m128i a, __m128i b)
+
+Arithmetic shift right of eight signed 16-bit integers (i.e. short)
+
+__m128i _mm_sra_epi16 (__m128i a, __m128i count)
+
+
+
+3. Explain why looping less, but doing more per loop still allows us to perform our code faster.
+
+Same number of addition, but less jumps (which takes a lot of time)
+
+4.1 At which optimization level does the compiler use SIMD intrinsic instructions?
+
+4.2 Whose code was faster: the default C code with maximum compiler optimizations or your SIMD code without optimizations?
+
+4.3 Whose code was faster with maximum optimizations: your SIMD code or the default C code? How much faster? Would it be worthwhile to always write your code using SIMD intrinsics?

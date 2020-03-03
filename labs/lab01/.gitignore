@@ -1,0 +1,7 @@
+a.out
+eccentric
+hello
+*.dSYM
+int_hello
+segfault_ex
+no_segfault_ex

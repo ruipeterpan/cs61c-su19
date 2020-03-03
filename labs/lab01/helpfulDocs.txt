@@ -1,0 +1,9 @@
+File I/O in C
+https://www.cs.bu.edu/teaching/c/file-io/intro/
+
+GDB Quick Reference
+https://cs61c.org/assets/resources/gdb5-refcard.pdf
+
+GDB Debugging: Conditions
+https://sourceware.org/gdb/onlinedocs/gdb/Conditions.html
+

@@ -1,0 +1,11 @@
+Describe the git command you’d use to roll back your directory to the initial commit.
+
+If you want to test the previous commit just do git checkout <test commit hash> ; then you can test that last working version of your project.
+
+If you want to revert the last commit just do git revert <unwanted commit hash> ; then you can push this new commit, which undid your previous commit.
+
+If you want to go back to the initial/very first commit, use git update-ref -d HEAD
+
+
+
+In one sentence: Either git reset or git revert works. However, git reset throws away all the commit histories in the middle, while git revert creates a new commit which has the same contents with the commit you are trying to reset to.

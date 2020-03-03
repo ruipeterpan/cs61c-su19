@@ -1,0 +1,5 @@
+wc-out*
+spark-wc-out*
+convertedOut
+*.txt
+*.seq
