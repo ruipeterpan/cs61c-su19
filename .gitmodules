@@ -1,0 +1,3 @@
+[submodule "source-repos/cs61c-labs-darthp"]
+	path = source-repos/cs61c-labs-darthp
+	url = https://github.com/61c-student/cs61c-labs-darthp.git
