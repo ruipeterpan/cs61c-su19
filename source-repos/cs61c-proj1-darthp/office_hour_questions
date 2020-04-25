@@ -1,0 +1,32 @@
+Office Hour questions for project 1 flight simulator
+
+1. SOLVED flight_t* createFlight(airport_t* destination, timeHM_t* departure, timeHM_t* arrival, int cost). 
+
+What kind of errors should we throw if the inputs are not valid? Say, the cost is a negative value.
+
+2. SOLVED flight_t* createFlight(airport_t* destination, timeHM_t* departure, timeHM_t* arrival, int cost). 
+
+When copying a string we can use strcpy(), but how can we copy a timeHM_t*?
+
+3. void deleteFlight(flight_t* flight)
+
+Do we need to allocate memory for an int in a struct and do we need to free the memory allocated for an int in a struct? If so, how?
+
+4. Valgrind output: 
+
+==1015== Use of uninitialised value of size 8
+==1015==    at 0x400C23: printTime (timeHM.c:24)
+==1015==    by 0x401107: printSchedule (flights.c:249)
+==1015==    by 0x401673: parseSchedule (RouteTime.c:132)
+==1015==    by 0x4019DB: timeRoutes (RouteTime.c:202)
+==1015==    by 0x401F27: main (RouteTime.c:340)
+==1015== 
+==1015== Invalid read of size 4.  Reference: https://derickrethans.nl/valgrind-null.html
+==1015==    at 0x400C23: printTime (timeHM.c:24)
+==1015==    by 0x401107: printSchedule (flights.c:249)
+==1015==    by 0x401673: parseSchedule (RouteTime.c:132)
+==1015==    by 0x4019DB: timeRoutes (RouteTime.c:202)
+==1015==    by 0x401F27: main (RouteTime.c:340)
+==1015==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
+
+When I call printTime() in createFlight(), it works just fine. However, when I call printTime() in printSchedule(), it doesn't work.
