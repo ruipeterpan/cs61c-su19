@@ -1,3 +1,18 @@
 [submodule "source-repos/cs61c-labs-darthp"]
 	path = source-repos/cs61c-labs-darthp
 	url = https://github.com/61c-student/cs61c-labs-darthp.git
+[submodule "source-repos/cs61c-proj4-darthp"]
+	path = source-repos/cs61c-proj4-darthp
+	url = https://github.com/61c-student/cs61c-proj4-darthp.git
+[submodule "source-repos/cs61c-proj3-2-starter-darthp"]
+	path = source-repos/cs61c-proj3-2-starter-darthp
+	url = https://github.com/61c-student/cs61c-proj3-2-starter-darthp.git
+[submodule "source-repos/cs61c-proj3-1-starter-darthp"]
+	path = source-repos/cs61c-proj3-1-starter-darthp
+	url = https://github.com/61c-student/cs61c-proj3-1-starter-darthp.git
+[submodule "source-repos/cs61c-proj2-darthp"]
+	path = source-repos/cs61c-proj2-darthp
+	url = https://github.com/61c-student/cs61c-proj2-darthp.git
+[submodule "source-repos/cs61c-proj1-darthp"]
+	path = source-repos/cs61c-proj1-darthp
+	url = https://github.com/61c-student/cs61c-proj1-darthp.git
