@@ -1,5 +1,0 @@
-int main () {
-  int x = 6;
-  int y = 5;
-  return x | y;
-}

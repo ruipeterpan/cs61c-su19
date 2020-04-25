@@ -1,3 +1,0 @@
-int main () {
-  return (int) (1 != 2);
-}
